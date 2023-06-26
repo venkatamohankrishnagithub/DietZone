@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.2.0-web/css/all.css">
+    <script src="/main.js"></script>
+</head>
+    <body style="background-color: #f7f7f7;">
+        <nav style="z-index: 1; position: fixed;">
+            <img class="nav-logo" src="/images/logo.png" alt="">
+            <div id="nav-links" class="nav-links">
+                <button id="exit-btn" onclick="exit()" class="exit"><i class="fa-solid fa-xmark"></i> Exit</button>
+                <a href="index.html" class="nav-link"></i>Home</a>
+                <a href="pages/learning/getting-started.html" class="nav-link"></i>Learn</a>
+                <a href="pages/plans.html" class="nav-link"></i>Plans</a>
+                <a href="pages/community.html" class="nav-link"></i>Community</a>
+                <button onclick="menu()" id="men-btn" class="menu"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+        <div style="padding-left: 0px;" class="content">
+            <div class="main-content">
+                <h1 style="text-align: center;" class="mc-h1">Wanna join Nutrizone?</h1>
+                <form style="margin-inline: auto; margin-top: 20px;" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSecKv-eQvBpcOYPujI5bKPSL_9PC1EGREbspcyTkUYMOthNcg/formResponse">
+                    <div class="custom-select">
+                        <select id="select" name="entry.1581948000">
+                            <option value="null">Choose Occupation</option>
+                            <option value="Writer/Researcher">Writer/Researcher</option>
+                            <option value="Social Media Manager">Social Media Manager</option>
+                            <option value="Social Media Influencer">Social Media Influencer</option>
+                            <option value="Developer">Developer</option>
+                        </select>
+                        <span class="focus"></span>
+                    </div>
+                    <p class="p-quest">Can you make time for calls?</p>
+                    <div style="margin-left: 20px; margin-top: 20px;">
+                    <input type="radio" id="yes" name="entry.159528576" value="Yes">
+                    <label for="html">Yes</label><br>
+                    <input type="radio" id="no" name="entry.159528576" value="No">
+                    <label for="css">No</label><br>
+                    <input type="radio" id="not-often" name="entry.159528576" value="Not often">
+                    <label for="javascript">Not often</label>
+                    </div>
+                <p class="p-quest">Discord Username</p>
+                <input type="text" class="plan-input" placeholder="User#0001" name="entry.1232979730" id="">
+                <p class="p-quest">What experience do you have?</p>
+                <input type="text" class="plan-input" placeholder="" name="entry.1275711884" id="">
+                <p class="p-quest">What can you do that will benefit our team?</p>
+                <input type="text" class="plan-input" placeholder="" name="entry.164091854" id="">
+                <button class="plan-sub" type="submit">Submit</button>
+            </form>
+            </div>
+        </div>
+        <script src="../style.js"></script>
+    </body>
+</html>

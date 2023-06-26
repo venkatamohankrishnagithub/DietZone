@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="stylesheet" href="../../style.css"> <!--For Local Host-->
+    <link rel="stylesheet" href="../../fontawesome-free-6.2.0-web/css/all.css">
+    <script src="../../main.js"></script>
+</head>
+<body style="background-color: #f7f7f7;">
+    <nav>
+        <img class="nav-logo" src="../../images/logo.png" alt="">
+        <div id="nav-links" class="nav-links">
+            <button id="exit-btn" onclick="exit()" class="exit">NUTRIZONE <i class="fa-solid fa-xmark"></i></button>
+            <a href="../../index.html" class="nav-link">Home</a>
+            <a href="" class="nav-link">Learn</a>
+            <a href="../../pages/plans.html" class="nav-link">Plans</a>
+            <a href="../../pages/community.html" class="nav-link">Community</a>
+            <button onclick="menu()" id="men-btn" class="menu"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </nav>
+    <button onclick="sb_open()" class="mb-sidebar"><i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+    <div id="sidebar" class="sidebar">
+        <div id="myUL" class="side-links">
+            <div class="search-exit">
+                <input onkeyup="myFunction()" class="sidebar-search" id="myInput" type="textbox" value="" placeholder="Search">
+                <button onclick="sb_close()" class="sb-exit"><i class="fa-solid fa-right-from-bracket"></i></button>
+            </div>
+            <a style="margin-top: 20px; display: block;" href="" class="side-link">Getting Started</a>
+            <a style="display: block;" href="../../pages/Learning/basic-tips.html" class="side-link">Basic Tips</a>
+            <span class="sidebar-spacing"></span>
+            <div class="dropdown">
+                <p class="side-header"><i class="fa-solid fa-pills"></i> Supplements</p>
+                <span class="sidebar-spacing"></span>
+                <a href="../../pages/Learning/supplements/Vitamins.html" class="side-link">Vitamins</a>
+                <a href="../../pages/Learning/supplements/Amino-Acids.html" class="side-link">BCAAS</a>
+                <a href="../../pages/Learning/supplements/creatine.html" class="side-link">Creatine</a>
+                <a href="../../pages/Learning/supplements/Protein.html" class="side-link">Protein</a>
+                <a href="" class="side-link">Caffiene</a>
+            </div>
+            <div class="dropdown">
+                <p class="side-header"><i class="fa-solid fa-apple-whole"></i> Dieting</p>
+                <span class="sidebar-spacing"></span>
+                <a href="../../pages/Learning/Diets/food-plate.html" class="side-link">Food Plate</a>
+                <a href="../../pages/Learning/Diets/fasting.html" class="side-link">Fasting</a>
+                <a href="../../pages/Learning/Diets/keto.html" class="side-link">Keto</a>
+                <a href="../../pages/Learning/Diets/vegan.html" class="side-link">Vegan</a>
+            </div>
+            <div class="dropdown">
+                <p class="side-header"><i class="fa-solid fa-cubes-stacked"></i> Sugar</p>
+                <span class="sidebar-spacing"></span>
+                <a href="../../pages/Learning/sugar/sugar.html" class="side-link">Basic Info</a>
+                <a href="../../pages/Learning/sugar/fructose.html" class="side-link">Fructose</a>
+                <a href="../../pages/Learning/sugar/glucose.html" class="side-link">Glucose</a>
+                <a href="../../pages/Learning/sugar/lactose.html" class="side-link">Lactose</a>
+            </div>
+            <div class="dropdown">
+                <p class="side-header"><i class="fa-solid fa-burger"></i> Fats</p>
+                <span class="sidebar-spacing"></span>
+                <a href="../../pages/Learning/fats/saturated.html" class="side-link">Saturated</a>
+                <a href="../../pages/Learning/fats/unsaturated.html" class="side-link">Unsaturated</a>
+                <a href="../../pages/Learning/fats/transfat.html" class="side-link">Transfat</a>
+            </div>
+            <div class="dropdown">
+                <p class="side-header"><i class="fa-solid fa-bolt"></i> Carbs</p>
+                <span class="sidebar-spacing"></span>
+                <a href="../../pages/Learning/carbs/simple.html" class="side-link">Simple</a>
+                <a href="../../pages/Learning/carbs/complex.html" class="side-link">Complex</a>
+                <a href="../../pages/Learning/carbs/fiber.html" class="side-link">Fiber</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="content">
+        <div class="main-content">
+            <div class="doc-top">
+                <h1>Getting Started</h1>
+            </div>
+            <p class="mc-pf">This website was created to give people easy access to what foods they should be eating for their goal and preference; whether that's for overall health, cutting, or bulking for strength. This tab is intended for people like weightlifters, athletes, vegans, and even people who just want to maintain a healthy diet. There’s many diets to choose from so we created this section to figure out what benefits you best. The sidebar will be your best friend during this process. Take some time to read about things you eat everyday or research commonly used diets.</p>
+            <h1 class="mc-h1">Diet Plans</h1>
+            <p class="mc-par">You might've noticed the plans tab on the navigation bar above, after you've researched what diet you'd like you can use our plans tab to chase your goal. These plans were created to make it as easy as possible for you to achieve your diet goal. So hopefully less time buying healthier foods, counting calories, and etc asshole.</p>
+            <h1 class="mc-h1">Community</h1>
+            <p class="mc-par">The community tab is for others who are trying to connect with others who are trying to learn about nutrition and are on their own journey. Our community is linked through an app called Discord, any questions/concerns or just conversation can be discussed there.</p>
+            <h1 class="mc-h1">Core Values</h1>
+            <p class="mc-par">Important things to keep in mind while using our program.</p>
+            <ul class="mc-ul">
+                <li>Consistency</li>
+                <li>Discipline</li>
+                <li>Tenacity</li>
+                <li>Perseverance</li>
+            </ul>
+            <p class="mc-pf">If you keep these things you need in mind as you read this material, it will help you reach your goal. It's important to emphasize how much you want it, success can't purely run on motivation; However, with discipline success will come easy.</p>
+            <div class="mc-img-contain">
+                <img class="mc-img" src="https://myplate-prod.azureedge.us/sites/default/files/styles/medium/public/2020-11/myplate-brand--labelled.png?itok=7VtFXcBC" alt="">
+            </div>
+            <p class="mc-par">Above is the balanced food plate, this is what you should stick to for a healthy diet; However, not every diet is balanced its important to keep this in mind when choosing your goal and diet.</p>
+        </div>
+    </div>
+</body>
+</html>
